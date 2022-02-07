@@ -1,0 +1,9 @@
+
+module CalculadoraApp{
+	interface Calculadora{
+		double getSoma(in double a, in double b);
+		double getSubtracao(in double a, in double b);
+		double getMultiplicacao(in double a, in double b);
+		double getDivisao(in double a, in double b);
+	};
+};
